@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Yan Wang"
-  avatar           :
+  avatar           : "images/headiconshort.jpg"
   bio              : "Ph.D. candidate"
   location         : "Harada Lab"
   employer         : "Osaka University, Japan"
