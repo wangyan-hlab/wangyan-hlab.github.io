@@ -15,7 +15,7 @@ Prior to Osaka University, I received my B.E. and M.E. from Harbin Institute of 
 
 Research Interest
 ======
-<img align="right" width="370" src="https://wanweiwei07.github.io/images/Linsertion.gif">
+<img align="right" width="302" src="https://wanweiwei07.github.io/images/Linsertion.gif">
 
 My major interest is skillful manipulation in robotic assembly based on motion planning, imitation learning, and reinforcement learning.
 
