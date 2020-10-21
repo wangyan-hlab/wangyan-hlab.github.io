@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Yan Wang / Robotic Manipulation"
 title_separator          : "-"
-name                     : &name "Yan Wang"
+name                     : 
 description              : &description "Yan Wang, Robotic Manipulation"
 url                      : https://wangyan-hlab.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -83,7 +83,7 @@ author:
   name             : "Yan Wang"
   avatar           :
   bio              : "Ph.D. candidate"
-  location         : "Harada Lab, Graduate School of Engineering Science"
+  location         : "Harada Lab"
   employer         : "Osaka University, Japan"
   pubmed           : 
   googlescholar    : 
