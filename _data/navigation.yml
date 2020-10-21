@@ -5,18 +5,9 @@ main:
     
   - title: "Research"
     url: /research/  
-
-  - title: "People"
-    url: /people/ 
         
   - title: "Resources"
     url: /resources/
-    
-  - title: "Editorials and Services"
-    url: /services/
-    
-  - title: "授業(Teaching)"
-    url: /teaching/
    
   - title: "原田研究室"
     url: "http://roboticmanipulation.org"
