@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Weiwei Wan / Robotic Manipulation"
+title                    : "Yan Wang / Robotic Manipulation"
 title_separator          : "-"
-name                     : &name "Weiwei Wan"
-description              : &description "Weiwei Wan, Robotic Manipulation"
-url                      : https://wanweiwei07.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Yan Wang"
+description              : &description "Yan Wang, Robotic Manipulation"
+url                      : https://wangyan-hlab.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "wanweiwei07/wanweiwei07.github.io"
+repository               : "wangyan-hlab/wangyan-hlab.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,30 +80,30 @@ analytics:
 
 # Site Author
 author:
-  name             : "Weiwei Wan"
-  avatar           : "headiconshort.jpg"
-  bio              : "Associate Professor"
-  location         : "Rm. F522, 〒560-8531"
+  name             : "Yan Wang"
+  avatar           :
+  bio              : "Ph.D. candidate"
+  location         : "Harada Lab, Graduate School of Engineering Science"
   employer         : "Osaka University, Japan"
   pubmed           : 
   googlescholar    : 
-  email            : "wanweiwei07@gmail.com"
-  researchgate     : "https://www.researchgate.net/profile/Weiwei_Wan2"
+  email            : "yan@hlab.sys.es.osaka-u.ac.jp"
+  researchgate     : "https://www.researchgate.net/profile/Yan_Wang638"
   uri              : 
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : "weiweiwan"
+  facebook         :
   foursquare       :
-  github           : "wanweiwei07"
+  github           : "wangyan-hlab"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/0000-0002-0058-2819"
+  orcid            : "http://orcid.org/0000-0001-9436-6262"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -113,7 +113,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : "UCqevHIf9MgWwCXDDIsj4kAQ"
+  youtube          :
   wikipedia        :
 
 
@@ -221,15 +221,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _publications
   - scope:
       path: ""
@@ -239,23 +230,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
 
 # Sass/SCSS
 sass:
