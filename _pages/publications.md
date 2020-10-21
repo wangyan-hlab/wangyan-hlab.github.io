@@ -7,7 +7,7 @@ author_profile: true
 
 Journal
 =======
-* ["Motion planning of skillful motions in assembly process through human demonstration"](https://www.tandfonline.com/eprint/YRMDKSZYWTXVJZ5NZD9V/full?target=10.1080/01691864.2020.1782260), Yan Wang, Kensuke Harada and, Weiwei Wan, **Advanced Robotics**, 2020, DOI: 10.1080/01691864.2020.1782260. [Video](https://www.youtube.com/watch?v=u8Rb7uarc3k)
+* ["Motion planning of skillful motions in assembly process through human demonstration"](https://www.tandfonline.com/eprint/YRMDKSZYWTXVJZ5NZD9V/full?target=10.1080/01691864.2020.1782260), Yan Wang, Kensuke Harada, and Weiwei Wan, **Advanced Robotics**, 2020, DOI: 10.1080/01691864.2020.1782260. [Video](https://www.youtube.com/watch?v=u8Rb7uarc3k)
 
 International Conference
 ========================
