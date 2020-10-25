@@ -5,6 +5,9 @@ permalink: /links/
 author_profile: true
 ---
 
-* [Harada lab](https://www.roboticmanipulation.org/)
 * [My Google site](https://sites.google.com/view/wangyan94/home)
-* [Interesting blogs](https://sites.google.com/view/wangyan94/blog)
+* [Harada lab](https://www.roboticmanipulation.org/)
+* [Graduate School of Engineering Science](https://www.es.osaka-u.ac.jp/en/)
+* [Osaka University](https://www.osaka-u.ac.jp/en)
+* [The Robotics Society of Japan (RSJ)](https://www.rsj.or.jp/)
+
