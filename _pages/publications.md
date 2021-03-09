@@ -11,7 +11,7 @@ Journal
 
 International Conference
 ========================
-* "Robotic Imitation of Human Assembly Skills Using Hybrid Trajectory and Force Learning", Yan Wang, Cristian C. Beltran-Hernandez, Weiwei Wan, and Kensuke Harada, **IEEE International Conference on Robotics and Automation (ICRA)**, 2021. (Accepted)
+* ["Robotic Imitation of Human Assembly Skills Using Hybrid Trajectory and Force Learning"](https://arxiv.org/abs/2103.05912), Yan Wang, Cristian C. Beltran-Hernandez, Weiwei Wan, and Kensuke Harada, **IEEE International Conference on Robotics and Automation (ICRA)**, 2021. (Accepted) [Video](https://youtu.be/maBGRVagHVU)
 * ["Motion Planning through Demonstration to Deal with Complex Motions in Assembly Process"](Motion Planning through Demonstration to Deal with Complex Motions in Assembly Process), Yan Wang, Kensuke Harada, and Weiwei Wan, **IEEE/RAS International Conference on Humanoid Robots (Humanoids)**, 2019, DOI: 10.1109/Humanoids43949.2019.9035043. [Video](https://www.youtube.com/watch?v=hQxP-YVKMwc)
 
 Domestic Conference
