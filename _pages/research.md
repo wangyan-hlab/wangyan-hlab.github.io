@@ -9,12 +9,13 @@ My research focus is on robotic imitation of human assembly skills. Nowadays, th
 
 ## Motion planning through human demonstration
 
-We develop a motion planning approach using human demonstration, which can be applied to complete skillful motions in the robotic assembly process. 
+We develop a novel motion planning approach using human demonstration, which can be utilized to complete skillful motions in robotic assembly tasks. The effectiveness of the presented method is verified through experiments on L insertion, tenon insertion, and peg-rotation tasks in the physical world.
 
 <img align="center" width="500" src="https://wangyan-hlab.github.io/images/motionplanning.jpg">
 
 ## Robotic learning of assembly skills
 
-We present a combined learning framework for completing robotic assembly skills with proper force control learned independently of the force profile from human demonstration.
+The main contribution of this work is the development of a framework that combines hierarchical imitation learning, to learn the nominal motion trajectory, with a reinforcement learning-based force control scheme to learn an optimal force control policy, that can satisfy the nominal trajectory while adapting to the force requirement of the assembly task. 
+Through experimental validations on both the simulated environment and the real hardware, we corroborate that the proposed learning-based framework is robust to uncertainty in the assembly task, can generate high-quality trajectories, and can find suitable force control policies, which adapt to the task's force requirements more efficiently.
 
-<img align="center" width="500" src="https://wangyan-hlab.github.io/images/combinedlearning.png">
+<img align="center" width="500" src="https://wangyan-hlab.github.io/images/real_assembly.png">
