@@ -7,7 +7,7 @@ author_profile: true
 
 Journal
 =======
-* ["Hybrid Trajectory and Force Learning of Complex Assembly Tasks: A Combined Learning Framework"](https://ieeexplore.ieee.org/document/9406007), Yan Wang, Cristian C. Beltran-Hernandez, Weiwei Wan, and Kensuke Harada, **IEEE Access**, 2021. (Accepted) [Video](https://youtu.be/HDnGQjQJXd4)
+* ["Hybrid Trajectory and Force Learning of Complex Assembly Tasks: A Combined Learning Framework"](https://ieeexplore.ieee.org/document/9406007), Yan Wang, Cristian C. Beltran-Hernandez, Weiwei Wan, and Kensuke Harada, **IEEE Access**, 2021, DOI: 10.1109/ACCESS.2021.3073711. [Video](https://youtu.be/HDnGQjQJXd4)
 * ["Motion Planning of Skillful Motions in Assembly Process through Human Demonstration"](https://www.tandfonline.com/eprint/YRMDKSZYWTXVJZ5NZD9V/full?target=10.1080/01691864.2020.1782260), Yan Wang, Kensuke Harada, and Weiwei Wan, **Advanced Robotics**, 2020, DOI: 10.1080/01691864.2020.1782260. [Video](https://www.youtube.com/watch?v=u8Rb7uarc3k)
 
 International Conference
