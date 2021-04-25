@@ -13,5 +13,5 @@ Academic Resources
 
 Interesting Blogs
 ======
-* [Interesting blogs](https://sites.google.com/view/wangyan94/blog)
+* [Interesting blogs](https://sites.google.com/view/wangyan94/resource)
 
