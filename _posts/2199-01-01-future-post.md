@@ -1,11 +1,9 @@
 ---
-title: 'Future Blog Post'
+title: 'Scheduled Future Post'
 date: 2199-01-01
-permalink: /posts/2012/08/blog-post-4/
+permalink: /posts/2199/01/scheduled-future-post/
 tags:
-  - cool posts
-  - category1
-  - category2
+  - demo
+  - jekyll
 ---
-
-This post will show up by default. To disable scheduling of future posts, edit `config.yml` and set `future: false`. 
+This post has a future date so it only appears when Jekyll's `future: true` setting is on. It is used as a Jekyll config sanity-check, not as user content — feel free to delete it once you have written your own first real post.
