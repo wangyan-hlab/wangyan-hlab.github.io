@@ -1,27 +1,30 @@
 source "https://rubygems.org"
 
-# Hello! This is where you manage which Jekyll version is used to run.
-# When you want to use a different version, change it below, save the
-# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
+# ------------------------------------------------------------------
+# Jekyll dependency policy
+# ------------------------------------------------------------------
+# This site is built and served by GitHub Pages, which runs a fixed
+# bundle locked by the `github-pages` gem. Upgrading Jekyll, kramdown,
+# rouge, or liquid here will NOT take effect on the deployed site and
+# will silently desync local builds from production. We therefore pin
+# the entire stack through `github-pages` instead of declaring Jekyll
+# or its plugins directly.
 #
-#     bundle exec jekyll serve
-#
-# This will help ensure the proper Jekyll version is running.
-# Happy Jekylling!
+# Note: the `github-pages` gem is itself in long-term maintenance —
+# GitHub announced it has moved to a newer build pipeline. If you
+# need a newer Jekyll, consider migrating to GitHub Actions builds.
+# ------------------------------------------------------------------
 
 gem "github-pages", group: :jekyll_plugins
 
-# If you want to use Jekyll native, uncomment the line below.
-# To upgrade, run `bundle update`.
-
-# gem "jekyll"
-
+# Windows-only file system watcher (kept from upstream template).
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
-# If you have any plugins, put them here!
+# Jekyll plugins used by the site. These are already pulled in by
+# `github-pages`, so pinning them here is mostly documentation.
 group :jekyll_plugins do
   # gem "jekyll-archives"
   gem "jekyll-feed"
-  gem 'jekyll-sitemap'
-  gem 'hawkins'
+  gem "jekyll-sitemap"
+  gem "hawkins"
 end
