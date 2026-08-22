@@ -1,0 +1,128 @@
+/* ==========================================================================
+   Theme overrides (light / dark)
+   ========================================================================== */
+/* This file is imported LAST by main.scss so its [data-theme="..."] rules
+   win specificity ties against the static defaults above. The structure:
+
+     :root                       — light defaults (parchment)
+     :root[data-theme="dark"]    — dark mode
+*/
+
+/* LIGHT — parchment paper feel
+   -------------------------------------------------------------------------- */
+:root {
+  /* Override the white defaults from _variables.scss with parchment tones */
+  --mm-bg:              #f4ecd8;
+  --mm-text:            #3d352a;
+  --mm-border:          #d8cdb1;
+  --mm-link:            #8a5a2b;
+  --mm-link-hover:      #5a3a1a;
+  --mm-link-visited:    #a87a4a;
+  --mm-primary:         #6b5a3f;
+  --mm-gray:            #8a7d65;
+  --mm-dark-gray:       #5a4f3a;
+  --mm-darker-gray:     #3d352a;
+  --mm-light-gray:      #ece2c8;
+  --mm-lighter-gray:    #f0e6cc;
+  --mm-code-bg:         #ebe1c5;
+  --mm-code-bg-dark:    #d8cdb1;
+  --mm-box-shadow:      0 1px 1px rgba(120, 90, 50, 0.18);
+  --mm-selection-bg:    #8a5a2b;
+  --mm-selection-fg:    #f4ecd8;
+  --mm-paper-bg-image:  none;
+  --mm-paper-bg-size:  auto;
+  --mm-text-shadow:    0 0 0.5px rgba(120, 90, 50, 0.18);
+
+  color-scheme: light;
+}
+
+/* DARK
+   -------------------------------------------------------------------------- */
+:root[data-theme="dark"] {
+  --mm-bg:              #1a1d21;
+  --mm-text:            #c9ccd1;
+  --mm-border:          #2c3036;
+  --mm-link:            #6ab7d9;
+  --mm-link-hover:      #93d1ea;
+  --mm-link-visited:    #5a9bbd;
+  --mm-primary:         #b8bcc1;
+  --mm-gray:            #8a8f95;
+  --mm-dark-gray:       #d4d7db;
+  --mm-darker-gray:     #e6e8eb;
+  --mm-light-gray:      #23272d;
+  --mm-lighter-gray:    #2a2e34;
+  --mm-code-bg:         #23272d;
+  --mm-code-bg-dark:    #1a1d21;
+  --mm-box-shadow:      0 1px 1px rgba(0, 0, 0, 0.5);
+  --mm-paper-bg-image:  none;
+  --mm-paper-bg-size:   auto;
+  --mm-text-shadow:     none;
+  --mm-selection-bg:    #6ab7d9;
+  --mm-selection-fg:    #1a1d21;
+
+  color-scheme: dark;
+}
+
+/* Global toggles that apply on every themed page
+   (selection, body texture).  These are outside [data-theme] because they
+   read the live CSS custom properties at runtime. */
+::selection {
+  background: var(--mm-selection-bg);
+  color: var(--mm-selection-fg);
+}
+
+html, body {
+  text-shadow: var(--mm-text-shadow);
+}
+
+/* The aged-paper look: warm cream background from --mm-bg + texture in
+   body::before (set by <style id="paper-texture"> in _includes/head/custom.html). */
+body[data-textured] {
+  background-color: var(--mm-bg);
+  background-size: var(--mm-paper-bg-size);
+  background-attachment: fixed;
+}
+
+/* Theme toggle button — single icon in masthead top-right
+   -------------------------------------------------------------------------- */
+.masthead__inner-wrap {
+  position: relative;
+}
+
+.theme-toggle {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  z-index: 15;
+
+  button {
+    appearance: none;
+    -webkit-appearance: none;
+    background: transparent;
+    border: 1px solid var(--mm-border);
+    border-radius: 6px;
+    padding: 0.35em;
+    margin: 0;
+    color: var(--mm-text);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+    line-height: 1;
+
+    svg { transition: none; }
+
+    &:hover {
+      border-color: var(--mm-link);
+      color: var(--mm-link);
+    }
+
+    &[aria-pressed="true"] {
+      background-color: var(--mm-primary);
+      border-color: var(--mm-primary);
+      color: var(--mm-bg);
+    }
+  }
+}

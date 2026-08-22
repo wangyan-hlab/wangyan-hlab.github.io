@@ -151,3 +151,38 @@ $box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
 $navicon-width              : 28px;
 $navicon-height             : 4px;
 $global-transition          : all 0.2s ease-in-out;
+
+
+/*
+   CSS Custom Properties (runtime theme tokens)
+   ========================================================================== */
+/* Bridge the SCSS color variables above into CSS custom properties so that
+   the theme can be swapped at runtime via `data-theme` on the <html> element.
+   Values are interpolated at compile time, so the runtime defaults match
+   the SCSS defaults exactly. See _theme.scss for the [data-theme="..."]
+   overrides. */
+
+:root {
+  --mm-bg:                #{$background-color};
+  --mm-text:              #{$text-color};
+  --mm-border:            #{$border-color};
+  --mm-link:              #{$link-color};
+  --mm-link-hover:        #{$link-color-hover};
+  --mm-link-visited:      #{$link-color-visited};
+  --mm-primary:           #{$primary-color};
+  --mm-gray:              #{$gray};
+  --mm-dark-gray:         #{$dark-gray};
+  --mm-darker-gray:       #{$darker-gray};
+  --mm-light-gray:        #{$light-gray};
+  --mm-lighter-gray:      #{$lighter-gray};
+  --mm-code-bg:           #{$code-background-color};
+  --mm-code-bg-dark:      #{$code-background-color-dark};
+  --mm-box-shadow:        #{$box-shadow};
+
+  /* Theme-neutral defaults; _theme.scss overrides these on `[data-theme]`. */
+  --mm-paper-bg-image:     none;
+  --mm-paper-bg-size:      auto;
+  --mm-text-shadow:        none;
+  --mm-selection-bg:       #000;
+  --mm-selection-fg:       #fff;
+}

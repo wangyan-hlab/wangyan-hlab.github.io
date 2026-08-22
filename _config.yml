@@ -72,8 +72,11 @@ social:
 
 
 # Analytics
+# Note: the old "google-universal" (Universal Analytics / UA-*) tracker was
+# shut down by Google in July 2023, so it is disabled here. To track visits
+# again, migrate to GA4 and use the "google" provider with a G-XXXX id.
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : false # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :  "UA-37501383-2"
 
@@ -241,7 +244,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Tokyo # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

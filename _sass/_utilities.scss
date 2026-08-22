@@ -427,7 +427,7 @@ body:hover .visually-hidden button {
 
   &__actions {
     padding: 0.5em 1em;
-    border-top: 1px solid $border-color;
+    border-top: 1px solid var(--mm-border);
   }
 }
 
@@ -451,7 +451,7 @@ body:hover .visually-hidden button {
 }
 
 a.reversefootnote {
-  color: $gray;
+  color: var(--mm-gray);
   text-decoration: none;
 
   &:hover {

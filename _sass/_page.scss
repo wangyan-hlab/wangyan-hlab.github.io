@@ -198,7 +198,7 @@
 .page__share {
   margin-top: 2em;
   padding-top: 1em;
-  border-top: 1px solid $border-color;
+  border-top: 1px solid var(--mm-border);
 
   @include breakpoint(max-width $small) {
     .btn span {
@@ -272,7 +272,7 @@
 
   &:hover {
     text-decoration: none;
-    color: $link-color-hover;
+    color: var(--mm-link-hover);
   }
 }
 
@@ -290,7 +290,7 @@
   margin-bottom: 10px;
   padding-top: 2rem;
   font-size: $type-size-6;
-  border-top: 1px solid $border-color;
+  border-top: 1px solid var(--mm-border);
   text-transform: uppercase;
 }
 
@@ -380,7 +380,7 @@
 .page__related {
   margin-top: 2em;
   padding-top: 1em;
-  border-top: 1px solid $border-color;
+  border-top: 1px solid var(--mm-border);
   @include clearfix();
   float: left;
 
