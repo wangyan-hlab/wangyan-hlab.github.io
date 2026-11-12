@@ -1,6 +1,6 @@
 ---
-layout: archive
-title: "My links"
+layout: research-site
+title: Links
 permalink: /links/
 author_profile: true
 ---
@@ -10,4 +10,3 @@ author_profile: true
 - [Graduate School of Engineering Science](https://www.es.osaka-u.ac.jp/en/)
 - [Osaka University](https://www.osaka-u.ac.jp/en)
 - [The Robotics Society of Japan (RSJ)](https://www.rsj.or.jp/)
-

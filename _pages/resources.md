@@ -1,6 +1,6 @@
 ---
-layout: archive
-title: ""
+layout: research-site
+title: Resources
 permalink: /resources/
 author_profile: true
 ---
@@ -12,4 +12,3 @@ author_profile: true
 
 # Interesting Blogs
 - [Interesting blogs](https://sites.google.com/view/wangyan94/resource)
-

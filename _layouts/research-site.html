@@ -1,0 +1,41 @@
+---
+layout: none
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="{{ page.description | default: 'Yan Wang’s research in robotic manipulation and contact-rich assembly.' | escape }}">
+<title>{{ page.title | escape }} | Yan Wang</title>
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<link rel="stylesheet" href="/assets/css/research-site.css">
+<script src="/assets/js/research-theme.js"></script>
+{% if page.url == "/" %}<script src="/assets/js/insertion-demo.js" defer></script>{% endif %}
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header>
+  <nav class="wrap" aria-label="Main navigation">
+    <a class="brand" href="/"{% if page.url == "/" %} aria-current="page"{% endif %}>Yan Wang</a>
+    <div class="nav-links">
+      <a href="/publications/"{% if page.url == "/publications/" %} aria-current="page"{% endif %}>Publications</a>
+      <a href="/research/"{% if page.url == "/research/" %} aria-current="page"{% endif %}>Research</a>
+      <a href="/resources/"{% if page.url == "/resources/" %} aria-current="page"{% endif %}>Resources</a>
+      <a href="/links/"{% if page.url == "/links/" %} aria-current="page"{% endif %}>Links</a><button class="theme-button" type="button">Dark mode</button>
+    </div>
+  </nav>
+</header>
+<main class="wrap" id="main" tabindex="-1">
+{% if page.url == "/" %}
+{{ content }}
+{% else %}
+<article class="subpage"{% if page.url == "/research/" %} data-view="research"{% endif %}>
+  <h1>{{ page.title | escape }}</h1>
+  {{ content }}
+</article>
+{% endif %}
+</main>
+<footer><div class="wrap">© Yan Wang</div></footer>
+</body>
+</html>
