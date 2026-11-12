@@ -30,7 +30,7 @@ layout: none
 {% if page.url == "/" %}
 {{ content }}
 {% else %}
-<article class="subpage"{% if page.url == "/research/" %} data-view="research"{% endif %}>
+<article class="subpage{% if page.url == "/resources/" %} subpage--resources{% endif %}"{% if page.url == "/research/" %} data-view="research"{% endif %}>
   <h1>{{ page.title | escape }}</h1>
   {{ content }}
 </article>
